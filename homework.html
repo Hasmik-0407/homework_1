@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Устройство HTML</title>
+    <style>
+        /* Основные стили страницы */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9fdf9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Шапка страницы */
+        header {
+            background-color: #66BB6A;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-bottom: 4px solid #4CAF50;
+        }
+
+        header h1 {
+            font-size: 3em;
+            letter-spacing: 1.5px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+
+        /* Основные разделы */
+        section {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+
+        h2, h3 {
+            color: #4CAF50;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        /* Стили для изображений */
+        img {
+            display: block;
+            margin: 30px auto;
+            max-width: 150px;
+        }
+
+        /* Стили для ссылок */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #66BB6A;
+            text-decoration: underline;
+        }
+
+        /* Горизонтальная линия */
+        hr {
+            border: none;
+            border-bottom: 1px solid #ddd;
+            margin: 40px 0;
+        }
+
+        /* Стили для pre-кода */
+        pre {
+            background-color: #f0f5f0;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Цитаты */
+        blockquote {
+            font-style: italic;
+            color: #666;
+            border-left: 5px solid #66BB6A;
+            padding-left: 15px;
+            margin: 30px 0;
+        }
+
+        /* Стили для таблиц */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f1f8f1;
+        }
+
+        /* Списки */
+        ul, ol {
+            padding-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 10px;
+        }
+
+        /* Стили для iframe */
+        iframe {
+            border: none;
+            width: 100%;
+            height: 400px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Подвал страницы */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+            border-top: 4px solid #66BB6A;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        /* Дополнительные стили для текста */
+        mark {
+            background-color: #66BB6A;
+            color: white;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        small {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        del {
+            text-decoration: line-through;
+            color: #a9a9a9;
+        }
+
+        ins {
+            text-decoration: underline;
+            color: green;
+        }
+
+        sub, sup {
+            font-size: 0.75em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Знакомство с HTML</h1>
+        <p>Основы и возможности языка разметки</p>
+    </header>
+
+    <section>
+        <h2>Что такое HTML?</h2>
+        <p><strong>HTML</strong> (HyperText Markup Language) — это основной язык для создания веб-страниц. С его помощью можно структурировать текст, изображения, ссылки и прочие элементы на веб-страницах.</p>
+
+        <h3>Основные возможности HTML</h3>
+        <p>С помощью <i>HTML</i> можно создавать и форматировать документы, добавлять <mark>интерактивные элементы</mark>, такие как кнопки, формы и мультимедиа. <small>В версии HTML5 добавлены новые теги и возможности.</small></p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo">
+
+        <blockquote>
+            HTML - это строительные блоки для создания веб-сайтов. <cite>Tim Berners-Lee</cite>.
+        </blockquote>
+
+        <p>Дополнительную информацию можно найти на <a href="https://ru.wikipedia.org/wiki/HTML" target="_blank">странице Wikipedia о HTML</a>.</p>
+
+        <hr>
+
+        <h3>Пример кода HTML:</h3>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Пример HTML&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Это пример HTML структуры&lt;/h1&gt;
+    &lt;p&gt;Это простой текстовый абзац.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+
+        <h3>Таблица HTML тегов:</h3>
+        <table>
+            <tr>
+                <th>Тег</th>
+                <th>Описание</th>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>Абзац текста</td>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; - &lt;h6&gt;</td>
+                <td>Заголовки разных уровней</td>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>Ссылка</td>
+            </tr>
+        </table>
+
+        <h3>Списки элементов HTML</h3>
+        <ul>
+            <li>Заголовки</li>
+            <li>Абзацы</li>
+            <li>Изображения</li>
+        </ul>
+
+        <ol>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ol>
+
+        <h3>Видео о HTML:</h3>
+        <iframe src="https://www.youtube.com/embed/bWPMSSsVdPk" title="Введение в HTML"></iframe>
+		<form  method="get"  action="">	
+			<label for="fullName"></label>
+			<input type="text" maxlength=15 name="fullName" ><!--կարճ տեքստի համար է --><br>
+			<input type="number" name="age" min=20 max=50><br>
+			<input type="color" name="favoriteColor"><br>
+			<input type="time" name="time"><br>
+			<input type="date" name="dateofBirth></br>
+			<input type="datetime"><br>
+			<input type="checkbox" name="favoritePets" value="cat">
+			<input type="checkbox" name="favoritePets" value="dog">
+			<input type="checkbox" name="favoritePets" value="cat1"><br>
+			<input type="radio" name="favoriteBook" value="harry poter">
+			<input type="radio" name="favoriteBook" value="monte q.">
+			<input type="radio" name="favoriteBook" value="vardananq"><br>
+			
+			
+			<textarea></textarea><!--երկար տեքստի համար է --><br>
+			<input type="submit" value="Save">
+			<button type="reset">Cancel</button>
+		</form><!--action-որտեղ գնում է գրված ինֆոն, իսկ method-ը get,post սերվերի հետ կապված   -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Учебный проект по HTML</p>
+    </footer>
+
+</body>
+</html>
